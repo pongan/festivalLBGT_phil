@@ -1,0 +1,11 @@
+function load_slideshow_script() {
+	if (is_home()) {
+wp_enqueue_script('slideshow', get_template_directory_uri() . '/
+js/slideshow.js', array(‘jquery’);
+wp_enqueue_script('init_slideshow', get_template_directory_uri()
+. '/js/init_slideshow.js, array('slideshow');
+}
+20
+}
+add_action('get_header', 'load_slideshow_script');
+

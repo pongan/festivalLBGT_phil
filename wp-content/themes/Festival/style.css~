@@ -1,0 +1,34 @@
+/*
+Theme Name: Festival
+Theme URI: http://example.com/
+Description: Thème enfant du thème Twenty Twelve
+Author: philippe PONGAN
+Author URI: http://example.com/about/
+Template: twentytwelve
+Version: 0.1.0
+*/  
+
+@import url("../twentytwelve/style.css");
+
+#programme {
+	padding: 10px;
+	background-color: #ccc;
+}
+
+.fg-rouge a {color: #ff0000 !important; }
+.fg-rose a {color: pink !important; }
+.fg-orange a,
+.prog-item .fg-orange {color: orange !important; }
+.fg-jaune a {color: yellow !important; }
+.fg-vert a {color: green !important; }
+.fg-bleuClair a {color: blue !important; }
+.fg-bleufonce a {color: aqua !important; }
+.fg-violet a {color: fuchsia !important; }
+
+
+
+
+
+
+
+
